@@ -1,0 +1,13 @@
+name: mcp-server-demo
+lang: python
+functions:
+    - type: tool
+      name: greeting_to_friends
+      description: 跟朋友们打个招呼
+      tags: 社交,工具
+      parameters:
+        - name: greeter
+          type: string
+          optional: false
+      returnType: string
+      created: true
